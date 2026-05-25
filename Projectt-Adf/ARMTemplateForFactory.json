@@ -516,7 +516,7 @@
 						},
 						"inputs": [
 							{
-								"referenceName": "AzureSql",
+								"referenceName": "ds_azureSql",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -583,7 +583,7 @@
 								"partitionOption": "None"
 							},
 							"dataset": {
-								"referenceName": "AzureSql",
+								"referenceName": "ds_azureSql",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -668,7 +668,7 @@
 				"lastPublishTime": "2026-05-23T14:03:49Z"
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/datasets/AzureSql')]",
+				"[concat(variables('factoryId'), '/datasets/ds_azureSql')]",
 				"[concat(variables('factoryId'), '/datasets/ds_sql')]",
 				"[concat(variables('factoryId'), '/datasets/ds_lookup')]",
 				"[concat(variables('factoryId'), '/datasets/ds_empty')]"
@@ -1069,7 +1069,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/AzureSql')]",
+			"name": "[concat(parameters('factoryName'), '/ds_azureSql')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
 			"properties": {
