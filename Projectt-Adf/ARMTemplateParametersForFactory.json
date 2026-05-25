@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Projectt-Adf"
+		},
+		"AzureSqlDB_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_onprem_file_password": {
+			"value": ""
+		},
+		"AzureSqlDB_properties_typeProperties_server": {
+			"value": "aadf-project.database.windows.net"
+		},
+		"AzureSqlDB_properties_typeProperties_database": {
+			"value": "adf-project-db"
+		},
+		"AzureSqlDB_properties_typeProperties_userName": {
+			"value": "adeadmin"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://aadfsa1.dfs.core.windows.net/"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_onprem_file_properties_typeProperties_host": {
+			"value": "C:\\DemoFiles"
+		},
+		"ls_onprem_file_properties_typeProperties_userId": {
+			"value": "ps\\pavan"
+		}
+	}
+}
