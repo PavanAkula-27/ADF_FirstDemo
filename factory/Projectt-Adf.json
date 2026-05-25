@@ -1,0 +1,15 @@
+{
+	"name": "Projectt-Adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "64ee5ef5-cc10-4687-962d-80d07da0ec3b",
+		"tenantId": "0b2d718c-d4df-4c65-b2a5-452e4ec55814"
+	}
+}
